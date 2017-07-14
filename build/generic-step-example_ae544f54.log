@@ -2015,3 +2015,4 @@
 2017-07-14 07:26:21:094 - info: [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
 2017-07-14 07:26:21:094 - info: [HTTP] <-- DELETE /wd/hub/session/e25e1bc9-c5d7-413e-b15b-b9c241987bfd 200 5044 ms - 76 
 2017-07-14 07:26:21:100 - info: [Appium] Received SIGTERM - shutting down
+2017-07-14 07:32:10:370 - info: [HTTP] <-- POST /wd/hub/session - - ms - - 

@@ -342,3 +342,5 @@
 2017-07-14 12:54:54 INFO  OptimusController:177 - cucumber.runtime.ScenarioImpl@720653c2---BOT registered successfully for -- ae544f54
 2017-07-14 12:56:16 INFO  OptimusController:125 - cucumber.runtime.ScenarioImpl@720653c2---The following BOT de-registered successfully -- ae544f54
 2017-07-14 12:56:21 INFO  OptimusController:138 - Starting Scenario -- generic step example 2
+2017-07-14 12:56:58 INFO  OptimusController:157 - generic-step-example-2--driver instance created for ae544f54
+2017-07-14 12:57:00 INFO  OptimusController:177 - cucumber.runtime.ScenarioImpl@228cea97---BOT registered successfully for -- ae544f54
