@@ -1,0 +1,79 @@
+2017-07-14 07:26:23:259 - info: [Appium] Welcome to Appium v1.6.5
+2017-07-14 07:26:23:261 - info: [Appium] Non-default server args:
+2017-07-14 07:26:23:262 - info: [Appium]   address: 127.0.0.1
+2017-07-14 07:26:23:262 - info: [Appium]   port: 16003
+2017-07-14 07:26:23:262 - info: [Appium]   sessionOverride: true
+2017-07-14 07:26:23:262 - info: [Appium]   log: /Users/nishant/Development/Optimus/ScripBox 2.0/build/generic-step-example-2_ae544f54.log
+2017-07-14 07:26:23:315 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:16003
+2017-07-14 07:26:23:438 - info: [HTTP] --> GET /wd/hub/status {}
+2017-07-14 07:26:23:441 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2017-07-14 07:26:23:453 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.5","revision":null}}
+2017-07-14 07:26:23:459 - info: [HTTP] <-- GET /wd/hub/status 200 18 ms - 83 
+2017-07-14 07:26:23:567 - info: [HTTP] --> GET /wd/hub/status {}
+2017-07-14 07:26:23:567 - info: [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+2017-07-14 07:26:23:576 - info: [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.5","revision":null}}
+2017-07-14 07:26:23:578 - info: [HTTP] <-- GET /wd/hub/status 200 10 ms - 83 
+2017-07-14 07:26:23:593 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/nishant/Development/Optimus/ScripBox 2.0/app/scripbox.apk","appActivity":"com.scripbox.takecharge.activities.SplashScreen","appPackage":"com.scripbox.takecharge","avdLaunchTimeout":300000,"udid":"ae544f54","platformName":"Android","deviceName":"SM-J510FN","useKeystore":false}}
+2017-07-14 07:26:23:594 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/nishant/Development/Optimus/ScripBox 2.0/app/scripbox.apk","appActivity":"com.scripbox.takecharge.activities.SplashScreen","appPackage":"com.scripbox.takecharge","avdLaunchTimeout":300000,"udid":"ae544f54","platformName":"Android","deviceName":"SM-J510FN","useKeystore":false},null,null]
+2017-07-14 07:26:23:594 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1500017183594 (12:56:23 GMT+0530 (IST))
+2017-07-14 07:26:23:596 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2017-07-14 07:26:23:596 - info: [Appium] Capabilities:
+2017-07-14 07:26:23:598 - info: [Appium]   app: '/Users/nishant/Development/Optimus/ScripBox 2.0/app/scripbox.apk'
+2017-07-14 07:26:23:598 - info: [Appium]   appActivity: 'com.scripbox.takecharge.activities.SplashScreen'
+2017-07-14 07:26:23:598 - info: [Appium]   appPackage: 'com.scripbox.takecharge'
+2017-07-14 07:26:23:598 - info: [Appium]   avdLaunchTimeout: 300000
+2017-07-14 07:26:23:599 - info: [Appium]   udid: 'ae544f54'
+2017-07-14 07:26:23:599 - info: [Appium]   platformName: 'Android'
+2017-07-14 07:26:23:599 - info: [Appium]   deviceName: 'SM-J510FN'
+2017-07-14 07:26:23:599 - info: [Appium]   useKeystore: false
+2017-07-14 07:26:23:601 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2017-07-14 07:26:23:679 - info: [BaseDriver] Session created with session id: cb89fe9b-aad6-4ab0-a913-c30ddd0b0ffb
+2017-07-14 07:26:23:680 - info: [debug] [AndroidDriver] Getting Java version
+2017-07-14 07:26:23:771 - info: [AndroidDriver] Java version is: 1.8.0_131
+2017-07-14 07:26:23:775 - info: [ADB] Checking whether adb is present
+2017-07-14 07:26:23:775 - warn: [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2017-07-14 07:26:23:781 - info: [ADB] Using adb from /usr/local/bin/adb
+
+2017-07-14 07:26:23:781 - info: [AndroidDriver] Retrieving device list
+2017-07-14 07:26:23:781 - info: [debug] [ADB] Trying to find a connected android device
+2017-07-14 07:26:23:782 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:23:792 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:23:793 - info: [AndroidDriver] Using device: ae544f54
+2017-07-14 07:26:23:794 - info: [ADB] Checking whether adb is present
+2017-07-14 07:26:23:794 - warn: [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for adb.
+2017-07-14 07:26:23:799 - info: [ADB] Using adb from /usr/local/bin/adb
+
+2017-07-14 07:26:23:799 - info: [debug] [ADB] Setting device id to ae544f54
+2017-07-14 07:26:23:800 - info: [BaseDriver] Using local app '/Users/nishant/Development/Optimus/ScripBox 2.0/app/scripbox.apk'
+2017-07-14 07:26:23:801 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2017-07-14 07:26:23:802 - info: [AndroidDriver] Starting Android session
+2017-07-14 07:26:23:807 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","wait-for-device"]
+2017-07-14 07:26:23:819 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:23:829 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:23:829 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","shell","echo","ping"]
+2017-07-14 07:26:23:861 - info: [debug] [Logcat] Starting logcat capture
+2017-07-14 07:26:23:910 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2017-07-14 07:26:23:911 - info: [debug] [ADB] Getting install status for io.appium.settings
+2017-07-14 07:26:23:911 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:23:924 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:23:924 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","shell","pm","list","packages","io.appium.settings"]
+2017-07-14 07:26:25:413 - info: [debug] [ADB] App is installed
+2017-07-14 07:26:25:413 - info: [debug] [ADB] Getting package info for io.appium.settings
+2017-07-14 07:26:25:413 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:25:419 - info: [ADB] Checking whether aapt is present
+2017-07-14 07:26:25:419 - warn: [ADB] The ANDROID_HOME environment variable is not set to the Android SDK root directory path. ANDROID_HOME is required for compatibility with SDK 23+. Checking along PATH for aapt.
+2017-07-14 07:26:25:423 - info: [ADB] Using aapt from /usr/local/bin/aapt
+
+2017-07-14 07:26:25:427 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:25:427 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","shell","dumpsys","package","io.appium.settings"]
+2017-07-14 07:26:25:435 - warn: [ADB] Cannot read version codes of /usr/local/lib/node_modules/appium/node_modules/io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+2017-07-14 07:26:25:438 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:25:449 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:25:449 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","shell","getprop","ro.build.version.sdk"]
+2017-07-14 07:26:25:516 - info: [debug] [ADB] Device API level: 23
+2017-07-14 07:26:25:517 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:25:530 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:25:530 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","shell","dumpsys","package","io.appium.settings"]
+2017-07-14 07:26:25:598 - info: [debug] [ADB] Getting connected devices...
+2017-07-14 07:26:25:609 - info: [debug] [ADB] 2 device(s) connected
+2017-07-14 07:26:25:610 - info: [debug] [ADB] Running '/usr/local/bin/adb' with args: ["-P",5037,"-s","ae544f54","shell","pm","dump","io.appium.settings"]

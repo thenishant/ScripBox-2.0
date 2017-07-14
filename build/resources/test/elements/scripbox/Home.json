@@ -1,0 +1,22 @@
+{
+  "elements":[
+    {
+      "elementName": "menu",
+      "identifier": "xpath",
+      "value": "//android.widget.ImageButton[@index=0]",
+      "waitFor": "visibility"
+    },
+    {
+      "elementName": "learn",
+      "identifier": "xpath",
+      "value": "//android.widget.TextView[@text='Learn']",
+      "waitFor": "visibility"
+    },
+    {
+      "elementName": "plan",
+      "identifier": "xpath",
+      "value": "//android.widget.TextView[@text='Plan']",
+      "waitFor": "presence"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "elements":[
+    {
+      "elementName": "plus",
+      "identifier": "id",
+      "value": "plus",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "minus",
+      "identifier": "id",
+      "value": "minus",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "letsGetStarted",
+      "identifier": "id",
+      "value": "lets_get_started_button_retirement_calculator",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "age",
+      "referTo":"seekBar"
+    },
+    {
+      "elementName": "nextButton",
+      "identifier": "id",
+      "value": "next_button",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "familyIncome",
+      "referTo":"seekBar"
+    },
+    {
+      "elementName": "ihaveMore",
+      "identifier": "id",
+      "value": "i_have_more",
+      "waitFor": "presence"
+    }
+  ]
+}

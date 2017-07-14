@@ -1,0 +1,686 @@
+{
+  "apps": [
+    {
+      "app": "scripbox.apk",
+      "elements": [
+        {
+          "name": "menu",
+          "screen": "home",
+          "identifier": "xpath",
+          "value": "//android.widget.ImageButton[@index=0]",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "learn",
+          "screen": "home",
+          "identifier": "xpath",
+          "value": "//android.widget.TextView[@text='Learn']",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "login",
+          "screen": "menu",
+          "identifier": "xpath",
+          "value": "//android.widget.CheckedTextView[@text='Login']",
+          "waitFor": "presence"
+        },
+        {
+          "name": "email",
+          "screen": "login",
+          "identifier": "id",
+          "value": "login_register_email",
+          "waitFor": "presence"
+        },
+        {
+          "name": "password",
+          "screen": "login",
+          "identifier": "id",
+          "value": "login_register_password",
+          "waitFor": "presence"
+        },
+        {
+          "name": "next",
+          "screen": "login",
+          "identifier": "id",
+          "value": "next_button_to_check_email_type",
+          "waitFor": "presence"
+        },
+        {
+          "name": "login",
+          "screen": "login",
+          "identifier": "id",
+          "value": "login_register_submit",
+          "waitFor": "presence"
+        },
+        {
+          "name": "plan",
+          "screen": "home",
+          "identifier": "xpath",
+          "value": "//android.widget.TextView[@text='Plan']",
+          "waitFor": "presence"
+        },
+        {
+          "name": "saveTaxCard",
+          "screen": "planning",
+          "identifier": "id",
+          "value": "save_tax_card",
+          "waitFor": "presence"
+        },
+        {
+          "name": "letsGetStarted",
+          "screen": "saveTax",
+          "identifier": "id",
+          "value": "next_button_for_tax_step1",
+          "waitFor": "presence"
+        },
+        {
+          "name": "annualCTC",
+          "reference":"Seekbar"
+        },
+        {
+          "name": "nextButton",
+          "screen": "saveTax",
+          "identifier": "id",
+          "value": "next_button",
+          "waitFor": "presence"
+        },
+        {
+          "name": "switchConveyance",
+          "screen": "saveTax",
+          "identifier": "id",
+          "value": "switch_conveyance",
+          "waitFor": "presence"
+        },
+        {
+          "name": "switchMedical",
+          "screen": "saveTax",
+          "identifier": "id",
+          "value": "switch_medical",
+          "waitFor": "presence"
+        },
+        {
+          "name": "rent",
+          "reference":"Seekbar"
+        },
+        {
+          "name": "hra",
+          "reference":"Seekbar"
+        },
+        {
+          "name": "epf",
+          "reference":"Seekbar"
+        },
+        {
+          "name": "homeLoan",
+          "screen": "saveTax",
+          "identifier": "id",
+          "value": "switch_loan",
+          "waitFor": "presence"
+        },
+        {
+          "name": "retirementCard",
+          "screen": "planning",
+          "identifier": "id",
+          "value": "retirement_card",
+          "waitFor": "presence"
+        },
+        {
+          "name": "plus",
+          "screen": "retirement",
+          "identifier": "id",
+          "value": "plus",
+          "waitFor": "presence"
+        },
+        {
+          "name": "minus",
+          "screen": "retirement",
+          "identifier": "id",
+          "value": "minus",
+          "waitFor": "presence"
+        },
+        {
+          "name": "letsGetStarted",
+          "screen": "retirement",
+          "identifier": "id",
+          "value": "lets_get_started_button_retirement_calculator",
+          "waitFor": "presence"
+        },
+        {
+          "name": "age",
+          "reference":"Seekbar"
+        },
+        {
+          "name": "nextButton",
+          "screen": "retirement",
+          "identifier": "id",
+          "value": "next_button",
+          "waitFor": "presence"
+        },
+        {
+          "name": "familyIncome",
+          "reference":"Seekbar"
+        },
+        {
+          "name": "ihaveMore",
+          "screen": "retirement",
+          "identifier": "id",
+          "value": "i_have_more",
+          "waitFor": "presence"
+        },
+        {
+          "name": "childEducationCard",
+          "screen": "planning",
+          "identifier": "id",
+          "value": "child_education_card",
+          "waitFor": "presence"
+        },
+        {
+          "name": "letsGetStarted",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "next_button_edu_calc_activity",
+          "waitFor": "presence"
+        },
+        {
+          "name": "nextButton",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "ec_key_elements_next_button",
+          "waitFor": "presence"
+        },
+        {
+          "name": "oneChild",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_count_one",
+          "waitFor": "presence"
+        },
+        {
+          "name": "twoChildren",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_count_two",
+          "waitFor": "presence"
+        },
+        {
+          "name": "threeChildren",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_count_three",
+          "waitFor": "presence"
+        },
+        {
+          "name": "child1Age",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_1_age_seek_bar",
+          "waitFor": "presence"
+        },
+        {
+          "name": "child2Age",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_2_age_seek_bar",
+          "waitFor": "presence"
+        },
+        {
+          "name": "child3Age",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_3_age_seek_bar",
+          "waitFor": "presence"
+        },
+        {
+          "name": "nextButtonChildAge",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_age_selector_fragment_next_button",
+          "waitFor": "presence"
+        },
+        {
+          "name": "collegeOverseasForChildOne",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_one_switch",
+          "waitFor": "presence"
+        },
+        {
+          "name": "collegeOverseasForChildTwo",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_two_switch",
+          "waitFor": "presence"
+        },
+        {
+          "name": "collegeOverseasForChildThree",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "child_three_switch",
+          "waitFor": "presence"
+        },
+        {
+          "name": "nextButtonOverseas",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "overseas_detail_selector_next_button",
+          "waitFor": "presence"
+        },
+        {
+          "name": "scienceSubjectForChildOne",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "science_stream",
+          "waitFor": "presence"
+        },
+        {
+          "name": "artsSubjectForChildTwo",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "arts_stream",
+          "waitFor": "presence"
+        },
+        {
+          "name": "businessSubjectForChildThree",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "business_stream",
+          "waitFor": "presence"
+        },
+        {
+          "name": "savingSwitch",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "mySwitch",
+          "waitFor": "presence"
+        },
+        {
+          "name": "savingSlider",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "seek_bar",
+          "waitFor": "presence"
+        },
+        {
+          "name": "goToInvestButton",
+          "screen": "childEducation",
+          "identifier": "id",
+          "value": "go_to_myscripbox_button",
+          "waitFor": "presence"
+        },
+        {
+          "name": "healthCard",
+          "screen": "planning",
+          "identifier": "id",
+          "value": "wealth_check_up_card",
+          "waitFor": "presence"
+        },
+        {
+          "name": "letsGetStarted",
+          "screen": "health",
+          "identifier": "id",
+          "value": "lets_get_started_button_compare_step0",
+          "waitFor": "presence"
+        },
+        {
+          "name": "nextButton",
+          "screen": "health",
+          "identifier": "id",
+          "value": "lets_get_started_button_compare_step0",
+          "waitFor": "presence"
+        },
+        {
+          "name": "age",
+          "screen": "health",
+          "identifier": "id",
+          "value": "age_20_to_30",
+          "waitFor": "presence"
+        },
+        {
+          "name": "city",
+          "screen": "health",
+          "identifier": "id",
+          "value": "top_metros",
+          "waitFor": "presence"
+        },
+        {
+          "name": "savingPercentage",
+          "screen": "health",
+          "identifier": "id",
+          "value": "twenty_thirty_percent",
+          "waitFor": "presence"
+        },
+        {
+          "name": "longTermInvestment",
+          "screen": "health",
+          "identifier": "id",
+          "value": "long_term_fixed_deposit",
+          "waitFor": "presence"
+        },
+        {
+          "name": "shortTermInvestment",
+          "screen": "health",
+          "identifier": "id",
+          "value": "short_term_debt_mutual_funds",
+          "waitFor": "presence"
+        },
+        {
+          "name": "insurance",
+          "screen": "health",
+          "identifier": "id",
+          "value": "insurance_yes",
+          "waitFor": "presence"
+        },
+        {
+          "name": "savingTax",
+          "screen": "health",
+          "identifier": "id",
+          "value": "life_insurance",
+          "waitFor": "presence"
+        },
+        {
+          "name": "investMoneyCard",
+          "screen": "planning",
+          "identifier": "id",
+          "value": "compare_investment_card",
+          "waitFor": "presence"
+        },
+        {
+          "name": "investMoneyEveryMonth",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "sip_card",
+          "waitFor": "presence"
+        },
+        {
+          "name": "investSlider",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "seek_bar",
+          "waitFor": "presence"
+        },
+        {
+          "name": "nextButton",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "lets_get_started_button_compare_step0",
+          "waitFor": "presence"
+        },
+        {
+          "name": "letsGetStarted",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "lets_get_started_button_compare_step0",
+          "waitFor": "presence"
+        },
+        {
+          "name": "years",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "sip_tenure",
+          "waitFor": "presence"
+        },
+        {
+          "name": "yearSlider",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "picker",
+          "waitFor": "presence"
+        },
+        {
+          "name": "next",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "next_button_compare_step5",
+          "waitFor": "presence"
+        },
+        {
+          "name": "showMeButton",
+          "screen": "investMoney",
+          "identifier": "id",
+          "value": "show_me_more_compare_step5",
+          "waitFor": "presence"
+        },
+        {
+          "name": "servicesAgreement",
+          "screen": "menu",
+          "identifier": "xpath",
+          "value": "//android.widget.CheckedTextView[@text='Services Agreement']",
+          "waitFor": "presence"
+        },
+        {
+          "name": "articles",
+          "screen": "learn",
+          "identifier": "id",
+          "value": "thumbnail",
+          "waitFor": "presence"
+        }
+      ]
+    },
+
+
+
+    {
+      "app": "makeMyTrip.apk",
+      "elements": [
+        {
+          "name": "moveToNextScreen",
+          "screen": "splash",
+          "identifier": "id",
+          "value": "layout_onboarding_right_img_vw",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "skip",
+          "screen": "splash",
+          "identifier": "id",
+          "value": "layout_onboarding_skip_txt_vw",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "grantPermission",
+          "screen": "home",
+          "identifier": "id",
+          "value": "com.android.packageinstaller:id/permission_allow_button",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "referAFriend",
+          "screen": "home",
+          "identifier": "id",
+          "value": "refer_earn_banner_linearlayout",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "flights",
+          "screen": "home",
+          "identifier": "id",
+          "value": "activity_home_launcher_flights_imgvw",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "fromCity",
+          "screen": "flights",
+          "identifier": "id",
+          "value": "froCityLayout",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "city",
+          "screen": "citySelector",
+          "identifier": "id",
+          "value": "city_edit_text",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "cityPicker",
+          "screen": "citySelector",
+          "identifier": "id",
+          "value": "cityPickerRow",
+          "waitFor": "presence"
+        },
+        {
+          "name": "class",
+          "screen": "flights",
+          "identifier": "id",
+          "value": "classLayout",
+          "waitFor": "presence"
+        },
+        {
+          "name": "economyClass",
+          "screen": "class",
+          "identifier": "id",
+          "value": "economyClass",
+          "waitFor": "presence"
+        },
+        {
+          "name": "departureDate",
+          "screen": "flights",
+          "identifier": "id",
+          "value": "depDateLayout",
+          "waitFor": "presence"
+        },
+        {
+          "name": "9",
+          "screen": "calendar",
+          "identifier": "xpath",
+          "value": "//android.widget.CheckedTextView[@text=9]",
+          "waitFor": "presence"
+        }
+      ]
+    },
+
+
+
+    {
+      "app": "miniCabit.apk",
+      "elements": [
+        {
+          "name": "departureTime",
+          "screen": "home",
+          "identifier": "id",
+          "value": "collapsedFromPanel",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "increaseMonth",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=0]/android.widget.Button[@index=2]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "decreaseMonth",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=0]/android.widget.Button[@index=0]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "month",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=0]/android.widget.EditText",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "increaseDay",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=1]/android.widget.Button[@index=2]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "day",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=1]/android.widget.EditText",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "decreaseDay",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=1]/android.widget.Button[@index=2]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "decreaseYear",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=2]/android.widget.Button[@index=0]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "year",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=2]/android.widget.EditText",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "increaseYear",
+          "screen": "date",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=2]/android.widget.Button[@index=2]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "setDate",
+          "screen": "date",
+          "identifier": "id",
+          "value": "date_picker_set_btn",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "hour",
+          "screen": "time",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=0]/android.widget.EditText",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "decreaseHour",
+          "screen": "time",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=0]/android.widget.Button[@index=0]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "increaseHour",
+          "screen": "time",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=0]/android.widget.Button[@index=2]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "minutes",
+          "screen": "time",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=1]/android.widget.EditText",
+          "waitFor": "visibility"
+        },
+        {
+          "name": "increaseMinutes",
+          "screen": "time",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=1]/android.widget.Button[@index=2]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "decreaseMinutes",
+          "screen": "time",
+          "identifier": "xpath",
+          "value": "//android.widget.NumberPicker[@index=1]/android.widget.Button[@index=0]",
+          "waitFor": "presence"
+        },
+        {
+          "name": "setTime",
+          "screen": "time",
+          "identifier": "id",
+          "value": "time_picker_set_btn",
+          "waitFor": "visibility"
+        }
+      ]
+    }
+  ]
+}

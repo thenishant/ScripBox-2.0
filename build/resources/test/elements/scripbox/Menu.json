@@ -1,0 +1,16 @@
+{
+  "elements":[
+    {
+      "elementName": "login",
+      "identifier": "xpath",
+      "value": "//android.widget.CheckedTextView[@text='Login']",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "servicesAgreement",
+      "identifier": "xpath",
+      "value": "//android.widget.CheckedTextView[@text='Services Agreement']",
+      "waitFor": "presence"
+    }
+  ]
+}

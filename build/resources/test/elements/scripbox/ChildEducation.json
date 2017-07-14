@@ -1,0 +1,116 @@
+{
+  "elements":[
+    {
+      "elementName": "letsGetStarted",
+      "identifier": "id",
+      "value": "next_button_edu_calc_activity",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "nextButton",
+      "identifier": "id",
+      "value": "ec_key_elements_next_button",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "oneChild",
+      "identifier": "id",
+      "value": "child_count_one",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "twoChildren",
+      "identifier": "id",
+      "value": "child_count_two",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "threeChildren",
+      "identifier": "id",
+      "value": "child_count_three",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "child1Age",
+      "identifier": "id",
+      "value": "child_1_age_seek_bar",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "child2Age",
+      "identifier": "id",
+      "value": "child_2_age_seek_bar",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "child3Age",
+      "identifier": "id",
+      "value": "child_3_age_seek_bar",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "nextButtonChildAge",
+      "identifier": "id",
+      "value": "child_age_selector_fragment_next_button",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "collegeOverseasForChildOne",
+      "identifier": "id",
+      "value": "child_one_switch",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "collegeOverseasForChildTwo",
+      "identifier": "id",
+      "value": "child_two_switch",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "collegeOverseasForChildThree",
+      "identifier": "id",
+      "value": "child_three_switch",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "nextButtonOverseas",
+      "identifier": "id",
+      "value": "overseas_detail_selector_next_button",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "scienceSubjectForChildOne",
+      "identifier": "id",
+      "value": "science_stream",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "artsSubjectForChildTwo",
+      "identifier": "id",
+      "value": "arts_stream",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "businessSubjectForChildThree",
+      "identifier": "id",
+      "value": "business_stream",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "savingSwitch",
+      "identifier": "id",
+      "value": "mySwitch",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "savingSlider",
+      "referTo":"seekBar"
+    },
+    {
+      "elementName": "goToInvestButton",
+      "identifier": "id",
+      "value": "go_to_myscripbox_button",
+      "waitFor": "presence"
+    }
+  ]
+}

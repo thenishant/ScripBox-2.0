@@ -1,0 +1,37 @@
+{
+  "elements":[
+    {
+      "elementName": "saveTaxCard",
+      "identifier": "id",
+      "value": "save_tax_card",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "retirementCard",
+      "screen": "planning",
+      "identifier": "id",
+      "value": "retirement_card",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "childEducationCard",
+      "screen": "planning",
+      "identifier": "id",
+      "value": "child_education_card",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "healthCard",
+      "identifier": "id",
+      "value": "wealth_check_up_card",
+      "waitFor": "presence"
+    },
+    {
+      "elementName": "investMoneyCard",
+      "screen": "planning",
+      "identifier": "id",
+      "value": "compare_investment_card",
+      "waitFor": "presence"
+    }
+  ]
+}
